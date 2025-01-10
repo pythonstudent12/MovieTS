@@ -1,3 +1,5 @@
-*.js linguist-language=TypeScript
-**/*.json linguist-language=jsonc
-* -text
+* linguist-vendored
+*.ts linguist-language=TypeScript
+*.ts linguist-vendored=false
+*.ts linguist-detectable=true
+*.html linguist-detectable=false
